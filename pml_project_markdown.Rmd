@@ -102,6 +102,10 @@ for(i in 1:ncol(training)){
 
 Once this is done, I then can rapidly examine each plot for any patterns either within RStudio or in an image viewer. Below are 2 examples of the output. The rest can be viewed in the $/plots$ folder.
 
+![](./plots/07_roll_belt_density.png)
+
+![](./plots/42_accel_dumbbell_z_box.png)
+
 
 ### IV. Final Data Transformations
 
