@@ -19,8 +19,16 @@ Coursera / Johns Hopkins
 Practical Machine Learning
 
 ### I. Synopsis
+Using wearable sensor data, I predict common mistakes in dumbbell bicep curls using a random forest model. Individuals were asked to perform a series of exercises while wearing sensors. According to the research team, the exercises were as follows:
+"exactly according to the specification (Class A), throwing the elbows to the front (Class B), lifting the dumbbell only halfway (Class C), lowering the dumbbell only halfway (Class D) and throwing the hips to the front (Class E)."
 
+The model I build predicts this classification of A through E, looking only at the sensor data.
 
+Read more: http://groupware.les.inf.puc-rio.br/har#dataset#ixzz3mzKZ0t8Q
+
+All credit for the original study and collection of the source data comes from the following:
+http://groupware.les.inf.puc-rio.br/har
+Ugulino, W.; Cardador, D.; Vega, K.; Velloso, E.; Milidiu, R.; Fuks, H. Wearable Computing: Accelerometers' Data Classification of Body Postures and Movements. Proceedings of 21st Brazilian Symposium on Artificial Intelligence. Advances in Artificial Intelligence - SBIA 2012. In: Lecture Notes in Computer Science. , pp. 52-61. Curitiba, PR: Springer Berlin / Heidelberg, 2012. ISBN 978-3-642-34458-9. DOI: 10.1007/978-3-642-34459-6_6. 
 
 ### II. Data Processing
 
