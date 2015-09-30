@@ -123,8 +123,8 @@ eval_test &lt;- select(eval_test, -one_of(invalid_columns))</code></pre>
 <pre class="r"><code>in_train &lt;- createDataPartition(y=df$classe,
                                p=0.7, 
                                list=FALSE)
-training &lt;- iris[in_train,]
-testing &lt;- iris[-in_train,]</code></pre>
+training &lt;- df[in_train,]
+testing &lt;- df[-in_train,]</code></pre>
 </div>
 <div id="iii.-exploratory-analysis-plotting-the-predictors" class="section level3">
 <h3>III. Exploratory Analysis / Plotting the Predictors</h3>

@@ -59,8 +59,8 @@ eval_test <- select(eval_test, -one_of(invalid_columns))
 in_train <- createDataPartition(y=df$classe,
                                p=0.7, 
                                list=FALSE)
-training <- iris[in_train,]
-testing <- iris[-in_train,]
+training <- df[in_train,]
+testing <- df[-in_train,]
 
 ## Exploratory analysis, plotting predictors
 
@@ -131,6 +131,8 @@ model_fit_rf <- train(classe ~ .,
                    data = training,
                    method = "rf",
                    prox = TRUE)
+
+
 
 confusionMatrix(training$classe, predict(model_fit_rf, newdata = training))
 

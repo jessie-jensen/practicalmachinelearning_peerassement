@@ -69,8 +69,8 @@ Now I partition the data into training and test sets. Since I will be using rand
 in_train <- createDataPartition(y=df$classe,
                                p=0.7, 
                                list=FALSE)
-training <- iris[in_train,]
-testing <- iris[-in_train,]
+training <- df[in_train,]
+testing <- df[-in_train,]
 ```
 
 ### III. Exploratory Analysis / Plotting the Predictors
